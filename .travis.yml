@@ -23,4 +23,7 @@ cache:
 install:
   - composer install --no-interaction --prefer-dist
 
+script:
+  - find -type f -name '*.php' -print0 | xargs -0 -l1 php -l
+
 # vim:ts=2:sw=2:et
