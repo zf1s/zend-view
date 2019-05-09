@@ -10,7 +10,7 @@
 	"homepage": "http://framework.zend.com/",
 	"license": "BSD-3-Clause",
 	"require": {
-		"php": ">=5.2.11",
+		"php": ">=5.3.3",
 		"zf1s/zend-controller": "^1.12",
 		"zf1s/zend-exception": "^1.12",
 		"zf1s/zend-loader": "^1.12",
@@ -33,5 +33,14 @@
 		"branch-alias": {
 			"dev-master": "1.x-dev"
 		}
+	},
+	"require-dev": {
+		"zf1s/phpunit": "^3.7"
+	},
+	"scripts": {
+		"test": "phpunit"
+	},
+	"archive": {
+		"exclude": ["/tests"]
 	}
 }

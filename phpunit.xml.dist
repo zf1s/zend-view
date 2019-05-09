@@ -1,0 +1,16 @@
+<phpunit bootstrap="tests/bootstrap.php"
+         colors="true">
+    <testsuite name="zend-view Testsuite">
+        <directory>./tests</directory>
+    </testsuite>
+
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./library/Zend</directory>
+        </whitelist>
+    </filter>
+
+    <php>
+        <ini name="date.timezone" value="UTC"/>
+    </php>
+</phpunit>
