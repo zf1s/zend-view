@@ -24,16 +24,16 @@ if (!defined('PHPUnit_MAIN_METHOD')) {
     define('PHPUnit_MAIN_METHOD', 'Zend_View_Helper_Navigation_AllTests::main');
 }
 
-require_once 'Zend/Navigation/ContainerTest.php';
-require_once 'Zend/Navigation/PageFactoryTest.php';
-require_once 'Zend/Navigation/PageTest.php';
-require_once 'Zend/Navigation/Page/AllTests.php';
+// require_once 'Zend/Navigation/ContainerTest.php';
+// require_once 'Zend/Navigation/PageFactoryTest.php';
+// require_once 'Zend/Navigation/PageTest.php';
+// require_once 'Zend/Navigation/Page/AllTests.php';
 
-require_once 'Zend/View/Helper/Navigation/BreadcrumbsTest.php';
-require_once 'Zend/View/Helper/Navigation/LinksTest.php';
-require_once 'Zend/View/Helper/Navigation/MenuTest.php';
-require_once 'Zend/View/Helper/Navigation/NavigationTest.php';
-require_once 'Zend/View/Helper/Navigation/SitemapTest.php';
+// require_once 'Zend/View/Helper/Navigation/BreadcrumbsTest.php';
+// require_once 'Zend/View/Helper/Navigation/LinksTest.php';
+// require_once 'Zend/View/Helper/Navigation/MenuTest.php';
+// require_once 'Zend/View/Helper/Navigation/NavigationTest.php';
+// require_once 'Zend/View/Helper/Navigation/SitemapTest.php';
 
 /**
  * @category   Zend
